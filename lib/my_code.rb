@@ -14,6 +14,6 @@ def reduce(array, starting_value = 0)
    value += array[x]
   end
   
-  value 
+  value
   
 end 
