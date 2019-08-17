@@ -10,14 +10,13 @@ def reduce(array, starting_value = nil)
   
  if starting_value
     value = starting_value
-  array.length.times do |x|
-    value += array[x]
+    i = 0
   end
 else
   value = array[0]
-  
+  i = 1
  end
   
-  value
+  
   
 end 
