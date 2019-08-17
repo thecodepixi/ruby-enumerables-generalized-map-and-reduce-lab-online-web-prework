@@ -8,8 +8,9 @@ end
 
 def reduce(array, starting_value = 0)
   value = starting_value 
-  binding.pry 
+  
   array.length.times do |x|
+    binding.pry 
    value += array[x]
   end
   
