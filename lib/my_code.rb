@@ -9,6 +9,7 @@ end
 def reduce(array, starting_value = nil)
   value = starting_value 
   
+  if starting_value
   array.length.times do |x|
     value += array[x]
   end
