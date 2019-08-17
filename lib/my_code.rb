@@ -19,6 +19,6 @@ else
   
   while i < array.length 
     yield(value, array[i])
-    
+    i += 1
   
 end 
