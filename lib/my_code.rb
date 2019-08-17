@@ -18,6 +18,7 @@ else
  end
   
   while i < array.length 
-    yield(value, array)
+    yield(value, array[i])
+    
   
 end 
