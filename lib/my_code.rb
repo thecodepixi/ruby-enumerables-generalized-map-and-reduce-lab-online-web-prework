@@ -6,7 +6,7 @@ def map(array)
   new
 end 
 
-def reduce(array, starting_value = 0)
+def reduce(array, starting_value = nil)
   value = starting_value 
   
   array.length.times do |x|
