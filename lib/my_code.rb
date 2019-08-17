@@ -8,17 +8,20 @@ end
 
 def reduce(array, starting_value = nil)
   
- if starting_value
+  if starting_value
     value = starting_value
     i = 0
   end
-else
-  value = array[0]
-  i = 1
- end
+  else
+    value = array[0]
+    i = 1
+  end
   
   while i < array.length 
     yield(value, array[i])
-    i += 1
+    i += 1 
+  end
+  
+  value 
   
 end 
