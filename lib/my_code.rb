@@ -13,7 +13,8 @@ def reduce(array, starting_value = nil)
   array.length.times do |x|
     value += array[x]
   end
-elsif 
+else
+  value = 
  end
   
   value
