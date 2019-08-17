@@ -11,7 +11,7 @@ def reduce(array, starting_value = 0)
   
   array.length.times do |x|
     binding.pry 
-   value += array[x]
+   value += yield(array[x])
   end
   
   value
