@@ -9,9 +9,9 @@ end
 def reduce(array, starting_value = 0)
   value = starting_value 
   
-  yield(array.length.times do |x|
+  array.length.times do |x|
     value += array[x]
-  end)
+  end
   
   value
   
