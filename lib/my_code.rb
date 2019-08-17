@@ -17,6 +17,7 @@ else
   i = 1
  end
   
+  while i < array.length 
   
   
 end 
